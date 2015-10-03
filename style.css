@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+section.main, .container {
+    min-height: 100%;
+}
+
+.container {
+    position: relative;
+    padding: 20px;
+    
+}
+
+section.main.first {
+    background-image: url(http://cisneiros.github.io/cisneiros.com/img/scotland.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fafafa;
+    text-shadow: 1px 1px 0 #151515;
+}
+
+
+section.main.second {
+    background-color: #fafafa;
+    color: #151515;
+}
